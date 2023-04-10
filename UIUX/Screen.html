@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>UIUX Design - 消防車體螢幕</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../../wwwroot/favicon.ico">
+
+    <link rel="stylesheet" href="../../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../../wwwroot/lib/font-awesome/css/all.css">
+
+    <script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- 共用CSS -->
+    <link rel="stylesheet" href="/wwwroot/css/Base.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./Screen.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="headerpage"></header>
+    <!-- 內容 -->
+    <div class="container">
+        <div class="zone" id="zone-1">
+            <div class="item-name">
+                <h1>消防車體螢幕</h1>
+                <div>2021</div>
+                <div>UI設計</div>
+            </div>
+            <img src="/wwwroot/img/Screen/螢幕-1.png">
+            <div class="item-info">
+                <div class="item">
+                    <div class="item-title">About</div>
+                    <div class="item-content">本案為消防車體螢幕的介面設計，希望使用者能在駕駛艙即可掌控整台車的基本、特殊設備。</div>
+                </div>
+                <div class="item">
+                    <div class="item-title">Problem</div>
+                    <div class="item-content">現有消防車水箱含水量、車身防護灑水器、車燈之開關與否皆需要往車外確認、甚至是要下車才能確認；也曾有報導說因為駕駛沒發現車頭定位未上鎖，警報也未提醒導致消防員在剎車時因慣性倒置人被甩出車外因此喪命等等安全疑慮。</div>
+                </div>
+                <div class="item" id="solution-1">
+                    <div class="item-title">Solution</div>
+                    <div class="item-content">統整整車特殊裝置、燈具設備、安全警告於一體，可直覺的於介面上辨識、控制燈具閃爍模式，也可明確接收安全警告，及查看水位、泡沫量的資訊等等。</div> 
+                </div>
+            </div>
+        </div>
+        <div class="zone" id="zone-PATTERN">
+            <div class="DEMO-title">
+                <hr>
+                <h2>FEATURES</h2>
+                <hr>
+            </div>
+            <img src="/wwwroot/img/Screen/螢幕-2.png" class="pattern-img" id="screen-feature-img-lg">
+            <img src="/wwwroot/img/Screen/螢幕-21.png" class="pattern-img" id="screen-feature-img-sm">
+        </div>
+        <div class="zone" id="zone-DEMO">
+            <div class="DEMO-title">
+                <hr>
+                <h2>DEMO</h2>
+                <hr>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-3.png">
+                <div class="analyze-text">正常使用下的情境模擬(顯示燈全暗/按鈕全關)</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-4.png">
+                <div class="analyze-text">正常使用下的情境模擬(顯示燈全亮/按鈕全開)</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-5.png">
+                <div class="analyze-text">車頭未定位時，顯示警告提醒</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-6.png">
+                <div class="analyze-text">燈具選擇模式控制台</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-7.png">
+                <div class="analyze-text">水箱含水量、泡沫量資訊顯示</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-8.png">
+                <div class="analyze-text">麥克風單一鍵說明</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-9.png">
+                <div class="analyze-text">麥克風組合鍵說明</div>
+            </div>
+            <div class="screen-analyze">
+                <img src="/wwwroot/img/Screen/螢幕-10.png">
+                <div class="analyze-text">對外擴音系統模式切換選擇</div>
+            </div>
+        </div>
+        <video width="400" id="zone-video" controls>
+            <source src="/wwwroot/img/Screen/流程影片.mp4" type="video/mp4">
+        </video>
+        <!-- 置頂按鈕 -->
+        <div class="top-btnpage"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footerpage"></footer>
+</body>
+<script>
+    $(".top-btnpage").load("../top-btn.html"); 
+    $(".headerpage").load("../Header.html"); 
+    $(".footerpage").load("../Footer.html");
+</script>
+<script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+<script src="../../wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../wwwroot/js/Base.js" asp-append-version="true"></script>
+</html>

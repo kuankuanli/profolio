@@ -1,0 +1,46 @@
+#color-1 {
+    color: #E3D3BE;
+    background: #FFF6EB;
+    box-shadow: 0 0 0 5px #E3D3BE;
+}
+#color-2 {
+    color: #FFF;
+    background: #DECCBF;
+    box-shadow: 0 0 0 5px #C8B2A2;
+}
+#color-3 {
+    color: #FFF;
+    background: #D1A07E;
+    box-shadow: 0 0 0 5px #E3BDA3;
+}
+#color-4 {
+    color: #FFF;
+    background: #FCA676;
+    box-shadow: 0 0 0 5px #FFC9AB;
+}
+#color-5 {
+    color: #FFF;
+    background: #74685A;
+    box-shadow: 0 0 0 5px #BEB6AC;
+}
+.prototype-btn {
+    background: #857A74;
+}
+/* 所有小螢幕 */
+@media screen and (max-width: 844px) and (max-height: 844px) {
+    #color-1 {
+        box-shadow: 0 0 0 3px;
+    }
+    #color-2 {
+        box-shadow: 0 0 0 3px #C8B2A2;
+    }
+    #color-3 {
+        box-shadow: 0 0 0 3px #E3BDA3;
+    }
+    #color-4 {
+        box-shadow: 0 0 0 3px #FFC9AB;
+    }
+    #color-5 {
+        box-shadow: 0 0 0 3px #BEB6AC;
+    }
+}

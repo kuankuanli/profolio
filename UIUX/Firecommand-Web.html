@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>UIUX Design - FIRECOMMAND｜火場安全管制系統-後台</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../../wwwroot/favicon.ico">
+
+    <link rel="stylesheet" href="../../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../../wwwroot/lib/font-awesome/css/all.css">
+
+    <script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- 共用CSS -->
+    <link rel="stylesheet" href="/wwwroot/css/Base.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./Firecommand-Web.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="headerpage"></header>
+    <!-- 內容 -->
+    <div class="container">
+        <div class="zone" id="zone-1">
+            <div class="item-name">
+                <div>
+                    <h1>FIRECOMMAND｜</h1>
+                    <h1>火場安全管制系統-後台</h1>
+                </div>
+                <div>2021</div>
+                <div>UI設計、切版、RWD版型</div>
+            </div>
+            <img src="/wwwroot/img/Firecommand-web/火場安全後台-1.png">
+            <div class="item-info">
+                <div class="item">
+                    <div class="item-title">About</div>
+                    <div class="item-content">本案為火場安全管制系統的後台介面設計，搭配APP設計給在火災現場外控管整個局勢的安全官所使用。可即時控管火場周遭資源與狀況，獻給辛苦站在前線救災的每位英雄。</div>    
+                </div>
+            </div>
+        </div>
+        <div class="zone" id="zone-2">
+            <div class="other-info">
+                <div class="item">
+                    <div class="item-title">Color</div>
+                    <div class="color-content">
+                        <div class="color" id="color-1">
+                            <div class="color-number">#2C323E</div>
+                        </div>
+                        <div class="color" id="color-2">
+                            <div class="color-number">#FD8963</div>
+                        </div>
+                        <div class="color" id="color-3">
+                            <div class="color-number">#487D7D</div>
+                        </div>
+                        <div class="color" id="color-4">
+                            <div class="color-number">#5F5BC4</div>
+                        </div>
+                        <div class="color" id="color-5">
+                            <div class="color-number">#2B63B7</div>
+                        </div>
+                        <div class="color" id="color-6">
+                            <div class="color-number">#72574D</div>
+                        </div>
+                    </div>    
+                </div>
+                <a href="https://www.figma.com/proto/VvHSQ4TaIPa8dH7hXqAmzX/%E6%95%91%E7%81%BD%E5%AE%89%E5%85%A8%E6%8C%87%E6%8F%AE%E7%B3%BB%E7%B5%B1-%E5%BE%8C%E5%8F%B0%E7%B6%B2%E9%A0%81?page-id=0%3A1&node-id=203-10871&viewport=18%2C-6269%2C0.4&scaling=scale-down&starting-point-node-id=203%3A10871&show-proto-sidebar=1" class="prototype-btn">PROTOTYPE</a>
+            </div>
+            <img src="/wwwroot/img/Firecommand-web/火場安全後台-2.png">
+        </div>
+        <div class="zone" id="zone-DEMO">
+            <div class="DEMO-title">
+                <hr>
+                <h2>DEMO</h2>
+                <hr>
+            </div>
+            <img src="/wwwroot/img/Firecommand-web/火場安全後台-3.png">
+            <img src="/wwwroot/img/Firecommand-web/火場安全後台-4.png">
+            <img src="/wwwroot/img/Firecommand-web/火場安全後台-5.png">
+        </div>
+        <!-- 置頂按鈕 -->
+        <div class="top-btnpage"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footerpage"></footer>
+</body>
+<script>
+    $(".top-btnpage").load("../top-btn.html"); 
+    $(".headerpage").load("../Header.html"); 
+    $(".footerpage").load("../Footer.html");
+</script>
+<script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+<script src="../../wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../wwwroot/js/Base.js" asp-append-version="true"></script>
+</html>

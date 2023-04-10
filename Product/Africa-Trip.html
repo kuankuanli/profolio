@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Product Design - Africa Trip｜非洲陶感</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../../wwwroot/favicon.ico">
+
+    <link rel="stylesheet" href="../../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../../wwwroot/lib/font-awesome/css/all.css">
+
+    <script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- 共用CSS -->
+    <link rel="stylesheet" href="/wwwroot/css/Base.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./Africa-Trip.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="headerpage"></header>
+    <!-- 內容 -->
+    <div class="container">
+        <div class="zone" id="zone-1">
+            <div class="item-name">
+                <h1>Africa Trip｜非洲陶感</h1>
+                <div>2020</div>
+                <div>花紙設計</div>
+            </div>
+            <img src="/wwwroot/img/非洲陶感-1.png">
+            <div class="item-info product-info">
+                <div class="major-img">
+                    <img src="/wwwroot/img/非洲陶感-0.png" class="major-img">
+                    <div>
+                        <div class="color-block-1"></div>
+                        <div class="color-block-2"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-text">
+                        <div class="item-title">About</div>
+                        <div class="item-content">非洲文化中不可或缺的元素之一 — 編織，</div>
+                        <div class="item-content">從籃子、袋子到家具，編織的手藝與之背後的故事動人心弦，</div>
+                        <div class="item-content">於是決定將編織文化與草原上的野生動物，結合成一份對未知旅程無限的嚮往。</div>
+                    </div>
+                    <div class="item-color">
+                        <div class="color-1">#98614F</div>
+                        <div class="color-2">#D0A673</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone" id="zone-img-2">
+            <img src="/wwwroot/img/非洲陶感-2.png">
+            <img src="/wwwroot/img/非洲陶感-3.png">
+        </div>
+        <!-- 置頂按鈕 -->
+        <div class="top-btnpage"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footerpage"></footer>
+</body>
+<script>
+    $(".top-btnpage").load("../top-btn.html"); 
+    $(".headerpage").load("../Header.html"); 
+    $(".footerpage").load("../Footer.html");
+</script>
+<script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+<script src="../../wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="../../wwwroot/js/Base.js" asp-append-version="true"></script> -->
+
+<script>
+var LineBtn = document.getElementById("Line-btn");
+var WebBtn = document.getElementById("Web-btn");
+var APPBtn = document.getElementById("APP-btn");
+var ScreenBtn = document.getElementById("Screen-btn");
+var TablewareBtn = document.getElementById("Tableware-btn");
+var ProductBtn = document.getElementById("Product-btn");
+var InviteBtn = document.getElementById("Invite-btn");
+var DMBtn = document.getElementById("DM-btn");
+
+function goHome() {
+    window.location.assign("../Home.html");
+    window.location.hash = "#tab";
+}
+</script>
+
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Product Design - Turkish Arts｜土耳其風情</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../../wwwroot/favicon.ico">
+
+    <link rel="stylesheet" href="../../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../../wwwroot/lib/font-awesome/css/all.css">
+
+    <script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- 共用CSS -->
+    <link rel="stylesheet" href="/wwwroot/css/Base.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./Turkish-Arts.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="headerpage"></header>
+    <!-- 內容 -->
+    <div class="container">
+        <div class="zone" id="zone-1">
+            <div class="item-name">
+                <h1>Turkish Arts｜土耳其風情</h1>
+                <div>2020</div>
+                <div>花紙設計</div>
+            </div>
+            <img src="/wwwroot/img/土耳其風情-1.png">
+            <div class="item-info product-info">
+                <div class="major-img">
+                    <img src="/wwwroot/img/土耳其風情-0.png" class="major-img">
+                    <div>
+                        <div class="color-block-1"></div>
+                        <div class="color-block-2"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-text">
+                        <div class="item-title">About</div>
+                        <div class="item-content">使用繁複的線條及色塊勾勒出複雜卻又規律的一套餐具，</div>
+                        <div class="item-content">希望帶給使用者一種彷彿置身土耳其當地的視覺饗宴。</div>
+                    </div>
+                    <div class="item-color">
+                        <div class="color-1">#FCD38F</div>
+                        <div class="color-2">#7D94AB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone" id="zone-img-2">
+            <img src="/wwwroot/img/土耳其風情-2.png">
+            <img src="/wwwroot/img/土耳其風情-3.png">
+        </div>
+        <!-- 置頂按鈕 -->
+        <div class="top-btnpage"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footerpage"></footer>
+</body>
+<script>
+    $(".top-btnpage").load("../top-btn.html"); 
+    $(".headerpage").load("../Header.html"); 
+    $(".footerpage").load("../Footer.html");
+</script>
+<script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+<script src="../../wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../wwwroot/js/Base.js" asp-append-version="true"></script>
+</html>

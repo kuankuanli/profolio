@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Product Design - Tailorcozy｜多功能縫紉桌</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="icon" type="image/x-icon" href="../../wwwroot/favicon.ico">
+
+    <link rel="stylesheet" href="../../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../../wwwroot/lib/font-awesome/css/all.css">
+
+    <script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- 共用CSS -->
+    <link rel="stylesheet" href="/wwwroot/css/Base.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./Tailorcozy.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="headerpage"></header>
+    <!-- 內容 -->
+    <div class="container">
+        <div class="zone" id="zone-1">
+            <div class="item-name">
+                <h1>Tailorcozy｜多功能縫紉桌</h1>
+                <div>2020</div>
+                <div>新一代設計 產學合作</div>
+            </div>
+            <img src="/wwwroot/img/Tailorcozy/Tailorcozy-1.png">
+            <div class="item-info">
+                <div class="item">
+                    <div class="item-title">About</div>
+                    <div class="item-content">以成衣工人為目標對象，設計出可以自由調整位置的車縫踏板，改善車縫工人長期腳步受限制的困擾；採用半沉式線架取代以往的雜亂感；並將縫紉機台傾斜5度減少手部的不適感。維持作業檯面上的整潔，提升工作效率和職場品質，打造出一個幸福的成衣加工廠域。</div>    
+                </div>
+                <div class="item zone-Feature">
+                    <div class="Feature-title">
+                        <hr>
+                        <h2>FEATURES</h2>
+                        <hr>
+                    </div>
+                    <div class="item-content">
+                        <div class="Feature-content">
+                            <div class="Feature-img">
+                                <img src="/wwwroot/img/Tailorcozy/Features-1.png">
+                            </div>
+                            <div class="Feature-text">人體功學</div>
+                        </div>
+                        <div class="Feature-content">
+                            <div class="Feature-img">
+                                <img src="/wwwroot/img/Tailorcozy/Features-2.png">
+                            </div>
+                            <div class="Feature-text">重新解構</div>
+                        </div>
+                        <div class="Feature-content">
+                            <div class="Feature-img">
+                                <img src="/wwwroot/img/Tailorcozy/Features-3.png">
+                            </div>
+                            <div class="Feature-text">創新操作</div>
+                        </div>
+                        <div class="Feature-content">
+                            <div class="Feature-img">
+                                <img src="/wwwroot/img/Tailorcozy/Features-4.png">
+                            </div>
+                            <div class="Feature-text">連結性</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone" id="zone-2">
+            <div class="other-info">
+                <div class="item">
+                    <div class="DEMO-title">
+                        <hr>
+                        <h2>FUNCTIONS</h2>
+                        <hr>
+                    </div>
+                    <div class="item-content">
+                        <img src="/wwwroot/img/Tailorcozy/Function-1.png" class="function-lg">
+                        <img src="/wwwroot/img/Tailorcozy/Function-2.png" class="function-lg">
+                        <img src="/wwwroot/img/Tailorcozy/Function-3.png" class="function-lg">
+                        <img src="/wwwroot/img/Tailorcozy/Function-4.png" class="function-lg">
+                        <img src="/wwwroot/img/Tailorcozy/Function-sm-1.png" class="function-sm">
+                        <img src="/wwwroot/img/Tailorcozy/Function-sm-2.png" class="function-sm">
+                        <img src="/wwwroot/img/Tailorcozy/Function-sm-3.png" class="function-sm">
+                        <img src="/wwwroot/img/Tailorcozy/Function-sm-4.png" class="function-sm">
+                    </div>
+                </div>
+            </div>
+            <div class="zone-img-2">
+                <img src="/wwwroot/img/Tailorcozy/Tailorcozy-2.png">
+            </div>
+        </div>
+        <video width="400" id="zone-video" controls>
+            <source src="/wwwroot/img/Tailorcozy/高林產學案最終影片.mp4" type="video/mp4">
+        </video>
+        <!-- 置頂按鈕 -->
+        <div class="top-btnpage"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footerpage"></footer>
+</body>
+<script>
+    $(".top-btnpage").load("../top-btn.html"); 
+    $(".headerpage").load("../Header.html"); 
+    $(".footerpage").load("../Footer.html");
+</script>
+<script src="../../wwwroot/lib/jquery/dist/jquery.min.js"></script>
+<script src="../../wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../wwwroot/js/Base.js" asp-append-version="true"></script>
+</html>

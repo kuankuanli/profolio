@@ -1,0 +1,20 @@
+.color-1, .color-block-1 {
+    background: #F7CEBF;
+}
+.color-2, .color-block-2 {
+    background: #8BAB9B;
+}
+.color-3, .color-block-3 {
+    background: #537590;
+}
+/* 所有小螢幕 */
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .container {
+        grid-gap: 24px;
+    }
+}
+@media screen and (max-width: 844px) and (max-height: 844px) {
+    .container {
+        grid-gap: 24px;
+    }
+}
