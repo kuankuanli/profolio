@@ -533,16 +533,20 @@ li::marker {
         object-position: top;
     }
     .name div {
-        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     }
     .experience-name h3 {
         font-size: 19px;
     }
-    .art-content div:nth-child(1) div {
+    .art-name {
         font-size: 20px;
     }
-    .art-content div:nth-child(2) {
-        font-size: 14px;
+    .art-content div:nth-child(1) div {
+        font-size: 20px;
+        align-self: center;
+    }
+    .art-content div:nth-child(2), .art-info {
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 500px){
