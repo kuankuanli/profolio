@@ -508,7 +508,7 @@ li::marker {
     }
     .tab_css label {
         font-size: 18px;
-        padding: 6px 12px;
+        padding: 6px 8px;
     }
     .tab_css input:checked + label + .tab_content, .test-click {
         grid-gap: 24px;
@@ -548,6 +548,10 @@ li::marker {
     .art-content div:nth-child(2), .art-info {
         font-size: 12px;
     }
+    .headshot {
+        outline: unset;
+        border: 10px solid #FFF;
+    }
 }
 @media screen and (max-width: 500px){
     #logo {
@@ -578,7 +582,7 @@ li::marker {
         grid-gap: 0;
     }
     .about-content > div:nth-child(1), .about-content > div:nth-child(2) {
-        grid-gap: 12px;
+        grid-gap: 4px;
     }
     .about-content div:nth-child(3), .experience-content div {
         font-size: 16px;
@@ -621,8 +625,8 @@ li::marker {
         background-size: 420%;
     }
     #zone-1 > img {
-        height: 36vh;
-        width: 53%;
+        height: 40vh;
+        width: 61%;
     }
     .name {
         right: 8vw;
@@ -640,10 +644,16 @@ li::marker {
         font-size: 32px;
     }
     .introduce-title div:nth-child(3) {
-        font-size: 28px;
+        font-size: 24px;
     }
     .introduce-title hr {
         margin: 8px 0;
+    }
+    .about-content > div > i {
+        font-size: 16px;
+    }
+    .job > div:nth-child(1) .experience-name {
+        grid-auto-flow: column;
     }
 }
 @media screen and (max-height: 500px){
