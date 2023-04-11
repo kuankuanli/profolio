@@ -291,6 +291,10 @@ li::marker {
     display: flex;
     align-items: center;
 }
+#zone-2 .about-content .fa-graduation-cap {
+    align-items: start;
+    margin-top: 5.5px;
+}
 /* 我的筆電螢幕 */
 @media screen and (max-width:1518px) {
     .name {
@@ -399,6 +403,11 @@ li::marker {
     }
     .introduce-title div:nth-child(4) {
         font-size: 16px;
+    }
+    .headshot {
+        outline: unset;
+        border: 15px solid #FFF;
+        margin-top: -15px;
     }
 }
 @media screen and (max-width:1024px) and (min-height:1366px){
@@ -550,6 +559,8 @@ li::marker {
     .art-content div:nth-child(1) div {
         font-size: 18px;
         align-self: end;
+        height: 100%;
+        align-items: center;
     }
     .art-content div:nth-child(2), .art-info {
         font-size: 14px;
@@ -558,6 +569,14 @@ li::marker {
         outline: unset;
         border: 10px solid #FFF;
     }
+    .about-content #school-EN {
+        font-size: 14px;
+        align-items: center;
+    }
+    .experience-name > div {
+        font-size: 14px;
+    }
+    
 }
 @media screen and (max-width: 500px){
     #logo {
