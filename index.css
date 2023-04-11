@@ -287,6 +287,10 @@ li::marker {
 .tabcontent {
     display: none;
 }
+#zone-2 .about-content i {
+    display: flex;
+    align-items: center;
+}
 /* 我的筆電螢幕 */
 @media screen and (max-width:1518px) {
     .name {
@@ -628,7 +632,7 @@ li::marker {
     }
     #zone-1 > img {
         height: 40vh;
-        width: 61%;
+        width: 70%;
     }
     .name {
         right: 8vw;
