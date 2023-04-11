@@ -24,7 +24,7 @@
     padding: 0 20%;
 }
 #zone-1 {
-    background-image: url(./wwwroot/img/首頁BG.png);
+    background-image: url(wwwroot/img/首頁BG.png);
     background-size: cover;
     position: relative;
     height: 100vh;
