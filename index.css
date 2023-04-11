@@ -529,10 +529,10 @@ li::marker {
     }
     .art-content div:nth-child(2), .art-content div:nth-child(3) {
         line-height: 1.3;
-        outline: unset;
     }
     #zone-1 > img {
         object-position: top;
+        outline: unset;
     }
     .name div {
         text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
