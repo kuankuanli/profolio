@@ -324,6 +324,47 @@ h1, h2 {
     width: 80px;
     height: 80px;
 }
+@media screen and (orientation: portrait) {
+    /*針對縱向 css去撰寫*/
+    .landscape-alert {
+        display: none;
+    }
+}
+/*針對橫向 css*去撰寫*/
+@media screen and (orientation: landscape) {
+    /* The Modal (background) */
+    .landscape-alert {
+        display: block; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    /* Modal Content */
+    .landscape-alert-content {
+        background-color: #FFF;
+        margin: auto;
+        padding: 40px;
+        width: 50%;
+        border-radius: 16px;
+        border: 10px solid #E8D8CC;
+        display: grid;
+        text-align: center;
+        grid-gap: 12px;
+    }
+    .logo {
+        justify-self: center;
+    }
+    .alert-text {
+        font-size: 16px;
+    }
+}
 /* 我的筆電螢幕 */
 @media screen and (max-width:1518px) {
     .container {

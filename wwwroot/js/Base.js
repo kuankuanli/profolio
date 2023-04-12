@@ -11,14 +11,3 @@ function goHome() {
     window.location.assign("../Home.html");
 }
 
-//手機轉橫式跳出警語
-$(window).on("deviceorientation resize", function( event ) {
-    if (window.matchMedia("(orientation: portrait)").matches) {
-        $('.overlay-landscape').removeClass('active');
-        $('.overlay-landscape-modal-mobile').removeClass('active');
-    }
-    if (window.matchMedia("(orientation: landscape)").matches) {
-        $('.overlay-landscape').addClass('active');
-        $('.overlay-landscape-modal-mobile').addClass('active');
-    }
-});
