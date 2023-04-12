@@ -323,6 +323,7 @@ li::marker {
     }
     .name {
         right: 17vw;
+        z-index: unset;
     }
     .introduce-title {
         width: 25%;
@@ -679,6 +680,10 @@ li::marker {
     }
     .job > div:nth-child(1) .experience-name {
         grid-auto-flow: column;
+    }
+    .fa-circle {
+        align-self: start;
+        margin-top: 4px;
     }
 }
 @media screen and (max-height: 500px){
