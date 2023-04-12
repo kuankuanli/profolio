@@ -337,7 +337,7 @@ h1, h2 {
         display: block; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
+        padding-top: calc(50vh - 107px);
         left: 0;
         top: 0;
         width: 100%; /* Full width */
@@ -356,13 +356,20 @@ h1, h2 {
         border: 10px solid #E8D8CC;
         display: grid;
         text-align: center;
-        grid-gap: 12px;
+        grid-gap: 4px;
     }
     .logo {
         justify-self: center;
     }
+    .alert-title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 8px;
+        color: #474747;
+    }
     .alert-text {
         font-size: 16px;
+        color: #474747;
     }
 }
 /* 我的筆電螢幕 */
