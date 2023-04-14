@@ -11,3 +11,15 @@ function goHome() {
     window.location.assign("../Home.html");
 }
 
+//判斷手機方向：
+
+window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function() {
+    if (window.orientation === 180 || window.orientation === 0) {
+        alert('目前您的螢幕為縱向！');
+    }
+    if (window.orientation === 90 || window.orientation === -90 ){
+        alert('目前您的螢幕為橫向！');
+    }
+}, false);
+
+

@@ -64,29 +64,6 @@ nav > div > a {
 .navbar-nav > .nav-item:nth-child(1) {
     display: list-item;
 }
-/* 整個捲軸 */
-::-webkit-scrollbar {
-    width: 15px;
-}
-/* 捲軸的軌道 */
-::-webkit-scrollbar-track { 
-    background: #fff;
-    border-radius: 10px;
-}
-/*捲軸尚未滑到的軌道*/
-::-webkit-scrollbar-track-piece{
-}
-/* 滑動的區塊 */
-::-webkit-scrollbar-thumb {
-    background: #E4E4E4;
-    border-radius: 10px;
-}
-/* 滑鼠移到滑動的區塊上 */
-::-webkit-scrollbar-thumb:hover {
-    background: #E4E4E4;
-}
-
-/* 從此開始為作品集 */
 .headerpage {
     position: inherit;
     z-index: 1;
@@ -324,14 +301,17 @@ h1, h2 {
     width: 80px;
     height: 80px;
 }
-@media screen and (orientation: portrait) {
-    /*針對縱向 css去撰寫*/
+.landscape-alert {
+    display: none;
+}
+/*針對縱向 css去撰寫*/
+@media (orientation: portrait) {
     .landscape-alert {
         display: none;
     }
 }
 /*針對橫向 css*去撰寫*/
-@media screen and (orientation: landscape) {
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
     /* The Modal (background) */
     .landscape-alert {
         display: block; /* Hidden by default */

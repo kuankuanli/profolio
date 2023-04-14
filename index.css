@@ -266,6 +266,7 @@ li::marker {
     display: flex;
     justify-content: end;
     font-weight: 600;
+    flex-wrap: wrap;
 }
 .art-name {
     font-size: 24px;
@@ -426,10 +427,6 @@ li::marker {
     #logo {
         width: 36%;
     }
-    .art-name-long {
-        display: flex;
-        flex-direction: column;
-    }
 }
 @media screen and (max-width:1024px) and (max-height:768px){
     .container {
@@ -455,9 +452,6 @@ li::marker {
     }
     .tab_css .home-title {
         margin-top: 48px;
-    }
-    .art-name-long {
-        flex-direction: column;
     }
     .experience-content {
         margin-top: 4px;
@@ -560,7 +554,6 @@ li::marker {
     .art-content div:nth-child(1) div {
         font-size: 18px;
         align-self: end;
-        height: 100%;
         align-items: center;
     }
     .art-content div:nth-child(2), .art-info {
@@ -616,9 +609,6 @@ li::marker {
     .art-self {
         grid-column: unset;
         width: unset;
-    }
-    .art-name-long {
-        flex-direction: column;
     }
     #tab {
         margin-top: 24px;
@@ -721,9 +711,6 @@ li::marker {
     .home-title::after {
         top: 24px;
     }
-    .art-name-long {
-        flex-direction: column;
-    }
     #tab3-content {
         grid-template-columns: 1fr;
     }
@@ -766,7 +753,7 @@ li::marker {
     .name {
         right: 47vw;
     }
-    .art-content .art-name-sm {
+    .art-content {
         grid-auto-flow: row;
         display: grid;
     }
