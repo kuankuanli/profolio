@@ -316,7 +316,7 @@ h1, h2 {
     .landscape-alert {
         display: block; /* Hidden by default */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
+        /* z-index: 1; Sit on top */
         padding-top: calc(50vh - 107px);
         left: 0;
         top: 0;
