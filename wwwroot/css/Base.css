@@ -107,6 +107,7 @@ nav > div > a {
 .item-name > div:nth-child(1) {
     display: flex;
     justify-content: end;
+    -webkit-justify-content: flex-end;
     margin-bottom: 0.5rem;
 }
 .item-name > div > h1 {
