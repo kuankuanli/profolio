@@ -558,6 +558,8 @@ li::marker {
     }
     .art-content div:nth-child(2), .art-info {
         font-size: 14px;
+    }
+    .art-content div:nth-child(2) {
         height: 27px;
     }
     .headshot {
