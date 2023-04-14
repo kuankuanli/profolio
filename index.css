@@ -546,6 +546,7 @@ li::marker {
     #zone-1 > img {
         object-position: top;
         outline: unset;
+        margin-top: 0;
     }
     .name div {
         text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
