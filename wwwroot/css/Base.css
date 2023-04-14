@@ -656,7 +656,8 @@ h1, h2 {
         grid-auto-flow: row;
     }
     .item-name > div:nth-child(1) {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
     .product-info {
         flex-direction: row;
