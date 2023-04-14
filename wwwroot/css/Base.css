@@ -286,6 +286,7 @@ h1, h2 {
     margin-top: 8px;
     font-weight: bold;
     color: #474747;
+    white-space: nowrap;
 }
 #zone-video {
     width: 100%;
