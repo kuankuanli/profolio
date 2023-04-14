@@ -267,8 +267,7 @@ li::marker {
     justify-content: end;
     font-weight: 600;
     flex-wrap: wrap;
-    justify-self: end;
-    color: red;
+    -webkit-justify-content: flex-end;
 }
 .art-name {
     font-size: 24px;
