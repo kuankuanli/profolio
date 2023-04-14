@@ -504,6 +504,7 @@ h1, h2 {
         justify-content: start;
         padding: 24px 40px 0 0;
         flex-direction: row;
+        -webkit-flex-direction: row;
         grid-gap: 24px;
     }
     .item-color div {
