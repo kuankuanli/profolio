@@ -2,7 +2,6 @@
     /* Microsoft JhengHei UI*/
     font-family: 'Microsoft YaHei';
     src: local('Microsoft JhengHei UI');
-    src: url('../font/msjh.woff');
 }
 * {
     font-family: 'Microsoft YaHei', 'sans-serif', 'monospace';
