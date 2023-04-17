@@ -531,7 +531,7 @@ li::marker {
         margin-top: 20px;
     }
     .tab_css .home-title::after {
-        top: 16px;
+        top: 13px;
         height: 17px;
     }
     .art-content {
@@ -576,10 +576,6 @@ li::marker {
         font-size: 14px;
         align-items: center;
     }
-    .experience-name > div {
-        font-size: 14px;
-    }
-    
 }
 @media screen and (max-width: 500px){
     #logo {
@@ -601,7 +597,8 @@ li::marker {
         top: 21px;
     }
     .home-title::after {
-        top: 17px;
+        top: 13px;
+        height: 17px;
     }
     .about-content div {
         font-size: 18px;
@@ -651,7 +648,7 @@ li::marker {
     }
     #zone-1 > img {
         height: 40vh;
-        width: 70%;
+        width: 50vw;
     }
     .name {
         right: 8vw;
