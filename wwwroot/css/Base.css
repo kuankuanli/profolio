@@ -30,6 +30,10 @@ html, body {
     background-color: transparent;
     border: none;
 }
+.nav-item {
+    display: list-item;
+    font-size: 16px;
+}
 body {
     background-color: #F4F3EF;
     margin-bottom: 0%;
@@ -44,6 +48,7 @@ body {
 }
 .dropdown-item {
     color: #474747;
+    font-size: 16px;
 }
 footer {
     font-size: 16px;
@@ -460,6 +465,11 @@ h1, h2 {
         width: 80%;
     }
 }
+@media screen and (max-width: 1080px) and (max-height: 810px) {
+    .major-img > img {
+        width: 25%;
+    }
+}
 @media screen and (max-width: 1024px) and (max-height: 768px) {
     #zone-DEMO, #zone-PATTERN, #zone-UI-Design {
         padding: 0 10%;
@@ -482,8 +492,13 @@ h1, h2 {
     #zone-video {
         width: 80%;
     }
+    .major-img > img {
+        width: 25%;
+    }
+    .product-info .item {
+        grid-gap: 12px;
+    }
 }
-
 @media screen and (max-width: 810px) and (max-height: 1080px) {
     .item-name {
         grid-column: unset;

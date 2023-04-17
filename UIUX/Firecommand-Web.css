@@ -45,6 +45,12 @@
     grid-auto-flow: row;
 }
 /* 所有小螢幕 */
+@media screen and (max-width: 1080px) and (max-height: 810px) {
+    .color {
+        min-width: 100px;
+    }
+    
+}
 @media screen and (max-width: 1024px) and (max-height: 768px) {
     #zone-2 > .other-info {
         order: unset;
