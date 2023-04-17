@@ -491,6 +491,9 @@ h1, h2 {
     #zone-1, #zone-2 {
         grid-template-columns: unset;
     }
+    #zone-DEMO, #zone-PATTERN, #zone-UI-Design {
+        padding: 0 10%;
+    }
 }
 @media screen and (max-width: 768px) and (min-height: 1024px) {
     #zone-1, #zone-2 {
