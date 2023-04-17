@@ -573,7 +573,8 @@ li::marker {
         border: 10px solid #FFF;
     }
     .about-content #school-EN {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: inherit;
         align-items: center;
     }
 }
@@ -593,8 +594,8 @@ li::marker {
         font-size: 32px;
     }
     #home-title::after {
-        height: 20px;
-        top: 21px;
+        height: 17px;
+        top: 17px;
     }
     .home-title::after {
         top: 13px;
