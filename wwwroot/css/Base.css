@@ -32,7 +32,6 @@ html, body {
 }
 .nav-item {
     display: list-item;
-    font-size: 16px;
 }
 body {
     background-color: #F4F3EF;
@@ -48,7 +47,6 @@ body {
 }
 .dropdown-item {
     color: #474747;
-    font-size: 16px;
 }
 footer {
     font-size: 16px;
@@ -408,6 +406,11 @@ h1, h2 {
     #zone-img-2 img, #zone-img-3 img {
         width: 100%;
         object-fit: fill;
+    }
+}
+@media screen and (max-width: 1366px) and (min-height: 1024px) {
+    .nav-item, .dropdown-item {
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 1024px) and (min-height: 1366px) {

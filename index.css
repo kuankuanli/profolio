@@ -82,6 +82,7 @@
 .name div {
     font-size: 80px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
 }
 .name div:nth-child(1) {
     color: #474747;
@@ -347,9 +348,6 @@ li::marker {
     .headshot {
         outline: unset;
         border: 10px solid #FFF;
-    }
-    .nav-item {
-        font-size: 20px;
     }
 }
 /* 筆電尺寸 */
