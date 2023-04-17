@@ -132,10 +132,10 @@
 }
 .about-content div {
     font-size: 20px;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     justify-content: start;
     grid-gap: 12px;
+    flex-wrap: wrap;
 }
 .about-content > div:nth-child(1), .about-content > div:nth-child(2) {
     display: grid;
@@ -319,6 +319,7 @@ li::marker {
     #zone-1 > img {
         height: 60vh;
         width: 35%;
+        margin-top: -10px;
     }
     .zone, .tab_css, #zone-3 {
         padding: 0 15%;
@@ -328,7 +329,7 @@ li::marker {
         z-index: unset;
     }
     .introduce-title {
-        width: 25%;
+        width: fit-content;
     }
     .introduce-title hr {
         margin: 16px 0;
@@ -348,6 +349,10 @@ li::marker {
     }
     .tab_content {
         margin-top: 40px;
+    }
+    .headerpage {
+        outline: unset;
+        border: 10px solid #FFF;
     }
 }
 /* 筆電尺寸 */
@@ -379,7 +384,11 @@ li::marker {
     }
     .about-content div:nth-child(3) {
         margin-top: 12px;
-    }    
+    }
+    .tab_css .home-title::after {
+        top: 19px;
+        height: 16px;
+    }   
 }
 @media screen and (max-width:1024px) and (min-height:1366px){
     #zone-1 {
@@ -389,9 +398,6 @@ li::marker {
         height: 52vh;
         width: 43%;
         margin-top: -15px;
-    }
-    .name {
-        right: 7%;
     }
     .introduce-title {
         justify-content: start;
@@ -412,6 +418,21 @@ li::marker {
         outline: unset;
         border: 15px solid #FFF;
         margin-top: -15px;
+    }
+    .name {
+        right: 13vw;
+        top: 8vh;
+    }
+    .name div {
+        font-size: 54px;
+        line-height: 1.1;
+    }
+    .home-title::after {
+        top: 21px;
+    }
+    .percentage {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr repeat(4, 1fr);
     }
 }
 @media screen and (max-width:1024px) and (min-height:1366px){
