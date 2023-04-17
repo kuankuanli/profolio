@@ -483,10 +483,18 @@ h1, h2 {
         width: 80%;
     }
 }
+
+@media screen and (max-width: 810px) and (max-height: 1080px) {
+    .item-name {
+        grid-column: unset;
+    }
+    #zone-1, #zone-2 {
+        grid-template-columns: unset;
+    }
+}
 @media screen and (max-width: 768px) and (min-height: 1024px) {
     #zone-1, #zone-2 {
         grid-auto-flow: row;
-        grid-template-columns: unset;
     }
     .other-info {
         order: 2;

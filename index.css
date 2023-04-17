@@ -354,6 +354,9 @@ li::marker {
         outline: unset;
         border: 10px solid #FFF;
     }
+    .nav-item {
+        font-size: 20px;
+    }
 }
 /* 筆電尺寸 */
 @media screen and (max-width:1366px) and (max-height:625px) {
