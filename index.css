@@ -597,10 +597,6 @@ li::marker {
         height: 17px;
         top: 17px;
     }
-    .home-title::after {
-        top: 13px;
-        height: 17px;
-    }
     .about-content div {
         font-size: 18px;
     }
