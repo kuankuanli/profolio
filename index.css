@@ -423,8 +423,6 @@ li::marker {
     .name div {
         line-height: 1.2;
     }
-}
-@media screen and (max-width:1024px) and (min-height:1366px){
     .container {
         flex-direction: column;
         align-items: center;
@@ -490,9 +488,14 @@ li::marker {
     }
 }
 @media screen and (max-width: 810px) and (max-height: 1080px) {
+    #zone-1 > img {
+        height: 50vh;
+        width: 40vw;
+        margin-top: 15vh;
+    }
     .name {
         right: 13vw;
-        top: 8vh;
+        top: 21vh;
     }
     .name div {
         font-size: 54px;
