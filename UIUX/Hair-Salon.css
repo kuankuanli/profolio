@@ -27,13 +27,6 @@
     background: #857A74;
 }
 @media screen and (max-width:1080px) and (max-height:810px){
-    #solution-1 {
-        display: none;
-    }
-    #solution-2 {
-        display: flex;
-        flex-direction: column;
-    }
     .other-info {
         order: 2;
         grid-column: auto / span 2;
