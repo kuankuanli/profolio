@@ -495,7 +495,7 @@ h1, h2 {
         padding: 0 10%;
     }
     .item-info {
-        flex-direction: row;
+        flex-direction: column;
     }
     .major-img {
         width: 30%;
@@ -505,7 +505,13 @@ h1, h2 {
         width: 100%;
     }
     .product-info {
-        padding: 40px 5% 0 5%;
+        padding: 40px 5% 0 0;
+        flex-direction: row;
+        justify-content: unset;
+        grid-gap: 40px;
+    }
+    .other-info {
+        order: 1;
     }
 }
 @media screen and (max-width: 768px) and (min-height: 1024px) {

@@ -37,6 +37,12 @@
         grid-gap: 20px;
     }
 }
+@media screen and (max-width: 810px) and (max-height: 1080px) {
+    #character-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 768px) and (max-height: 1024px) {
     #award-img {
         grid-gap: 0;

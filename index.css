@@ -176,10 +176,8 @@ li::marker {
     margin-right: 16px;
 }
 .percentage {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: 1fr repeat(9, 1fr);
-    align-self: start;
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 16px;
 }
 .percentage img {
@@ -339,10 +337,6 @@ li::marker {
     }
     .introduce-title div:nth-child(3) {
         font-size: 32px;
-    }
-    .percentage {
-        grid-auto-flow: column;
-        justify-content: start;
     }
     .tab_css .home-title {
         margin-top: 40px;
@@ -505,17 +499,10 @@ li::marker {
         line-height: 1.1;
     }
     .tab_css .home-title::after {
-        top: 16pxcolo;
+        top: 16px;
     }
     .home-title::after {
         top: 21px;
-    }
-    .percentage {
-        grid-auto-flow: row;
-        grid-template-columns: 1fr repeat(4, 1fr);
-    }
-    .about-content {
-        color: red;
     }
 }
 @media screen and (max-width: 768px) and (max-height: 1024px) {
@@ -556,6 +543,9 @@ li::marker {
     }
     .home-title::after {
         top: 21px;
+    }
+    .about-content > div:nth-child(2) > div {
+        grid-gap: 12px;
     }
 }
 @media screen and (max-width: 932px) and (max-height: 932px){
@@ -637,9 +627,7 @@ li::marker {
         padding: 0 32px;
     }
     .percentage {
-        grid-auto-flow: row;
         grid-gap: 12px;
-        grid-template-columns: 1fr repeat(3, 1fr);
     }
     #home-title {
         font-size: 32px;
