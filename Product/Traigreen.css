@@ -226,6 +226,27 @@
         max-width: 120px;
     }
 }
+@media screen and (max-width: 1080px) and (max-height: 810px) {
+    .feature-content img {
+        max-width: 120px;
+    }
+    .three-view .item-content img {
+        width: 250px;
+    }
+    #zone-4, #zone-5 {
+        padding: 0 10%;
+    }
+    #zone-5 span {
+        width: 64px;
+        height: 64px;
+    }
+    #zone-5 span:before {
+        font-size: 32px;
+    }
+    .function-content img {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 810px) and (max-height: 1080px) {
     .Feature-text {
         grid-gap: 8px;
