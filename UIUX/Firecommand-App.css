@@ -48,26 +48,18 @@
     grid-gap: 16px;
     margin-top: 16px;
 }
-/* 所有小螢幕 */
-@media screen and (max-width: 1366px) {
-    #pattern-1 img {
-        width: 64px;
-    }
-    #pattern-2 img {
-        width: 96px;
-    }
+#pattern-1 img {
+    width: 64px;
 }
+#pattern-2 img {
+    width: 96px;
+}
+/* 所有小螢幕 */
 @media screen and (max-width:1080px) and (max-height:810px){
     .other-info {
         order: 2;
         grid-column: auto / span 2;
     }
-}
-@media screen and (max-width: 1024px) and (max-height: 768px) {
-    
-}
-@media screen and (max-width: 810px) and (max-height: 1080px) {
-    
 }
 @media screen and (max-width: 768px) and (max-height: 1024px) {
     #pattern-1 img {
