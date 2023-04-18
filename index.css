@@ -447,7 +447,7 @@ li::marker {
         top: 23vh;
     }
 }
-@media screen and (max-width:1024px) and (max-height:768px){
+@media screen and (max-width:1080px) and (max-height:810px){
     .container {
         grid-gap: 48px;
     }
