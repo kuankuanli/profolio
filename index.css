@@ -3,7 +3,7 @@
     max-width: none;
     flex-direction: column;
     padding: 0;
-    gap: 80px;
+    grid-gap: 80px;
     display: flex;
     min-height: calc(100% - 80.3px);
 }
@@ -130,7 +130,6 @@
     display: grid;
     grid-gap: 8px;
     color: #474747;
-    color: red;
 }
 .about-content div {
     font-size: 20px;
