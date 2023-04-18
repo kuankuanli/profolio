@@ -233,6 +233,10 @@
     .three-view .item-content img {
         width: 250px;
     }
+    #zone-2 > .other-info {
+        order: unset;
+        grid-column: unset;
+    }
     #zone-4, #zone-5 {
         padding: 0 10%;
     }
