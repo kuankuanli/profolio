@@ -130,6 +130,7 @@
     display: grid;
     grid-gap: 8px;
     color: #474747;
+    color: red;
 }
 .about-content div {
     font-size: 20px;
