@@ -3,7 +3,7 @@
     max-width: none;
     flex-direction: column;
     padding: 0;
-    grid-gap: 80px;
+    gap: 80px;
     display: flex;
     min-height: calc(100% - 80.3px);
 }
