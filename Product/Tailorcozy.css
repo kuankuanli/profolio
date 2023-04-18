@@ -122,7 +122,7 @@
         grid-auto-columns: 5fr 6fr;
     }
 }
-@media screen and (max-width: 844px) and (max-height: 844px) {
+@media screen and (max-width: 932px) and (max-height: 932px) {
     .zone-Feature, .other-info .item {
         grid-gap: 12px;
     }
