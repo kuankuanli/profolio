@@ -359,11 +359,11 @@ li::marker {
         width: 25%;
     }
     .name div {
-        font-size: 70px;
+        font-size: 56px;
         line-height: 1.2;
     }
     .name {
-        right: 21vw;
+        right: 26vw;
     }
     .introduce-title div:nth-child(1) {
         font-size: 48px;
